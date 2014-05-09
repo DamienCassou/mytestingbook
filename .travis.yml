@@ -1,0 +1,7 @@
+language: pillar
+install:
+  - sudo apt-get install texlive-latex-base
+  - ./download.sh
+
+script:
+  - ./compile.sh
