@@ -1,7 +1,7 @@
 language: pillar
 install:
   - set -xv
-  - sudo apt-get install texlive-latex-base
+  - sudo apt-get install libc6-i386 texlive-latex-base
   - ./download.sh
 
 script:
