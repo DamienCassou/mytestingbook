@@ -1,5 +1,7 @@
 language: pillar
 install:
+  - set -xv
+  - ppa:pharo/stable
   - sudo apt-get install texlive-latex-base
   - ./download.sh
 
